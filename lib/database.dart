@@ -2,8 +2,9 @@ import 'package:postgres/postgres.dart';
 
 class Database {
   Endpoint confPosgreSQL = Endpoint(
-      host: 'localhost',
-      database: 'dolan_database',
+      host: 'roundhouse.proxy.rlwy.net',
+      port: 56086,
+      database: 'railway',
       username: 'postgres',
-      password: 'admin001');
+      password: '6ad5AG-DgCgGf45BEdfF--gBAfCG6BF2');
 }
